@@ -664,6 +664,15 @@ def get_train_details(train_no: str):
 async def health_check():
     """Health check endpoint"""
     return {"status": "healthy"}
+@app.get("/items/")
+async def get_items():
+    return {
+        "message": "Items endpoint is working!",
+        "items": [
+            {"id": 1, "name": "Train Complaint Example"},
+            {"id": 2, "name": "Lost & Found"},
+        ]
+    }
 
 if __name__ == "__main__":
     import uvicorn
