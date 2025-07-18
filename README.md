@@ -50,20 +50,10 @@ API: http://localhost:8000/items/
 
 Docs: http://localhost:8000/rs_microservice/docs
 
-📁 Project Structure
-
-📦 railsathi-dockerized/
-├── app/
-│   ├── main.py
-│   ├── services.py
-│   └── database.py
-├── docker-compose.yml
-├── Dockerfile
-├── .env.example
-└── README.md
 
 
-🧪 Testing the API
+
+### 🧪 Testing the API
 After starting the server, open:
 ```bash
 http://localhost:8000/rs_microservice/docs
